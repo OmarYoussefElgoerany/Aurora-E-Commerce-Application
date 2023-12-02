@@ -1,0 +1,29 @@
+.card {
+  background-color: #d5f2e3;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.1);
+  background-color: #73ba9b;
+  color: #ffff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#productscards {
+  margin-top: 5vh;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
