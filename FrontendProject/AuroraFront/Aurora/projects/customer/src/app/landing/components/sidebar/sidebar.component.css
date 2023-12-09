@@ -1,0 +1,9 @@
+.sidebar{
+    background-color: #044E2E!important;
+    height:fit-content!important ;
+}
+
+li a:hover {
+    text-decoration:underline;
+    cursor:pointer !important;
+}

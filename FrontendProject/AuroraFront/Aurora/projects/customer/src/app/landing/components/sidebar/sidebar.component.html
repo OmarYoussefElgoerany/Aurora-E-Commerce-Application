@@ -1,0 +1,21 @@
+      <div class="sidebar">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu" >
+            <li>
+              <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                <span class="ms-1 d-none d-sm-inline">Categories</span>
+              </a>
+              <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                <li class="w-100" *ngFor="let item of categories">
+                  <a (click)="filter(item)" class="nav-link px-0 text-white">{{item.name}}</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-0 align-middle text-white">
+                <span class="ms-1 d-none d-sm-inline">Orders</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
